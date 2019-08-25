@@ -241,8 +241,8 @@ img{
   }
 
   .icon{
-    height: 15vw;
-    width: 15vw;
+    height: 10vw;
+    width: 10vw;
     object-fit: fill;
     border-radius: 20%;
     margin-bottom: 5vh;
