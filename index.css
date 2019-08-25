@@ -213,9 +213,32 @@ img{
 
 @media(max-width: 1000px){
   #tribute-content{
+    grid-column: span 12;
+    display: grid;
+    grid-gap: 2vw;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto auto auto;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
   }
+  .History-Title{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .history{
+    grid-column: span 4;
+  }
+
+  .social-title{
+    display: none;
+  }
+
+  #socialMediaLinks{
+    grid-column: span 3;
+  }
+
 }
 
 .tweet-at{
