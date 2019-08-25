@@ -56,6 +56,7 @@ img{
   grid-row: span 1;
   justify-self: end;
   margin-right: 3vw;
+  margin-left: 5vw;
   align-content: center;
 }
 
@@ -238,6 +239,14 @@ img{
   #socialMediaLinks{
     grid-column: span 3;
   }
+
+  .icon{
+    height: 17vw;
+    width: 17vw;
+    object-fit: fill;
+    border-radius: 20%;
+  }
+
 
 }
 
