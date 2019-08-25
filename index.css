@@ -241,10 +241,11 @@ img{
   }
 
   .icon{
-    height: 17vw;
-    width: 17vw;
+    height: 15vw;
+    width: 15vw;
     object-fit: fill;
     border-radius: 20%;
+    margin-bottom: 5vh;
   }
 
 
